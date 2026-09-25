@@ -14,6 +14,7 @@ const app = express();
 const allowedOrigins = [
   "http://localhost:5173",
   "http://localhost:3000",
+  "https://khtowerfrontend.vercel.app",
   process.env.FRONTEND_URL, // set on Vercel e.g. https://kh-tower.vercel.app
 ].filter(Boolean);
 
